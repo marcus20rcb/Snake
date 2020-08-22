@@ -1,7 +1,7 @@
 let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
 let box = 32;
-left snake = [];
+let snake = [];
 snake[0] = {
     x: 8 * box,
     y: 8 * box 
